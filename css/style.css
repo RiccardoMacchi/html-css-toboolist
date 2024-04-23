@@ -3,20 +3,37 @@
 * {
     box-sizing: border-box;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* regole container */
-#container {
+#contmain {
+    background-color: #f6f8f9;
+    padding: 50px;
+
+}
+
+#container1 {
     background-color: white;
-    margin: 10px 10%;
-    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#container2 {
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
     border-radius: 10px;
 }
 
 /* regole header */
 
 header {
-    padding: 10px;
+    background-color: white;
 }
 h1 {
     font-size: 40px;
@@ -31,7 +48,7 @@ h1:before {
 
 h2:before {
     content: "\1F893";
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 /* regole bottoni */
@@ -40,37 +57,45 @@ h2:before {
     background-color: #47adf1;
     border: solid 1px rgb(185, 178, 178);
     border-radius: 4px;
+    width: 100px;
+    height: 50px;
 }
 
 #section {
     background-color: none;
     border: solid 1px rgb(185, 178, 178);
     border-radius: 4px;
+    width: 100px;
+    height: 50px;
 }
+
+
 
 /* regole azioni fatte e da fare */
 .fatto {
     display: inline;
+    line-height: 35px;
 }
 
 .nofatto {
     display: inline;
+    line-height: 35px;
 }
 
 .fatto:before {
     content: "\1F5F8";
-    text-align: center;
     color: green;
     border: solid 1px green;
     border-radius: 50%;
+    text-align: center;
 }
 
 .nofatto:before{
     content: "\00d7";
-    text-align: center;
     color: red;
     border: solid 1px red;
     border-radius: 50%;
+    text-align: center;
 }
 
 
