@@ -2,15 +2,25 @@
 
 * {
     box-sizing: border-box;
+    border: none;
 }
 
+/* regole container */
+#container {
+    background-color: white;
+    margin: 10px 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 /* regole header */
 
 header {
     padding: 10px;
 }
-
+h1 {
+    font-size: 40px;
+}
 h1:before {
     content: url(../img/Logo.png);
     display: inline-block;
@@ -24,6 +34,21 @@ h2:before {
     vertical-align: top;
 }
 
+/* regole bottoni */
+
+#task {
+    background-color: #47adf1;
+    border: solid 1px rgb(185, 178, 178);
+    border-radius: 4px;
+}
+
+#section {
+    background-color: none;
+    border: solid 1px rgb(185, 178, 178);
+    border-radius: 4px;
+}
+
+/* regole azioni fatte e da fare */
 .fatto {
     display: inline;
 }
@@ -48,10 +73,47 @@ h2:before {
     border-radius: 50%;
 }
 
+
+/* definizione vari tags */
+
 .editorial {
     border: 1px;
-    background-color: blueviolet;
+    background-color: #45abea;
     padding: 3px;
-    border-radius: 33%;
+    border-radius: 10px;
 }
 
+.q1goals {
+    border: 1px;
+    background-color: #9c72e4;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.recruiting {
+    border: 1px;
+    background-color: #63c0a9;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.mobile {
+    border: 1px;
+    background-color: #f29e33;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.website {
+    border: 1px;
+    background-color: #d75f9e;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.sales {
+    border: 1px;
+    background-color: #45abea;
+    padding: 3px;
+    border-radius: 10px;
+}
