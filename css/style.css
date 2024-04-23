@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0 auto;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,9 +33,16 @@
     border-radius: 10px;
 }
 
+.divlist {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 /* regole header */
 
 header {
+    padding: 20px;
     background-color: white;
 }
 h1 {
@@ -48,9 +56,18 @@ h1:before {
 
 /* regole main */
 
-h2:before {
-    content: "\1F893";
-    vertical-align: middle;
+.divfreccia {
+    margin-top: 35px;
+    margin-bottom: -20px;
+}
+h2 {
+    display: inline;
+    vertical-align: top;
+}
+
+.freccia {
+    font-size: 35px;
+
 }
 
 /* regole bottoni */
@@ -58,17 +75,21 @@ h2:before {
 #task {
     background-color: #47adf1;
     border: solid 1px rgb(185, 178, 178);
-    border-radius: 4px;
-    width: 100px;
-    height: 40px;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    color: white;
+    vertical-align: middle;
 }
 
 #section {
     background-color: none;
     border: solid 1px rgb(185, 178, 178);
-    border-radius: 4px;
-    width: 100px;
-    height: 40px;
+    border-radius: 5px;
+    width: auto;
+    height: 35px;
+    color: grey;
+    vertical-align: middle;
 }
 
 
@@ -76,28 +97,32 @@ h2:before {
 /* regole azioni fatte e da fare */
 .fatto {
     display: inline;
-    line-height: 35px;
 }
 
 .nofatto {
     display: inline;
-    line-height: 35px;
 }
 
 .fatto:before {
+    display: inline-block;
     content: "\1F5F8";
     color: green;
     border: solid 1px green;
     border-radius: 50%;
     text-align: center;
+    width: 20px;
+    height: 20px;
 }
 
 .nofatto:before{
+    display: inline-block;
     content: "\00d7";
     color: red;
     border: solid 1px red;
     border-radius: 50%;
     text-align: center;
+    width: 20px;
+    height: 20px;
 }
 
 
