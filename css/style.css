@@ -1,0 +1,57 @@
+/* regole generali */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* regole header */
+
+header {
+    padding: 10px;
+}
+
+h1:before {
+    content: url(../img/Logo.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* regole main */
+
+h2:before {
+    content: "\1F893";
+    vertical-align: top;
+}
+
+.fatto {
+    display: inline;
+}
+
+.nofatto {
+    display: inline;
+}
+
+.fatto:before {
+    content: "\1F5F8";
+    text-align: center;
+    color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+}
+
+.nofatto:before{
+    content: "\00d7";
+    text-align: center;
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;
+}
+
+.editorial {
+    border: 1px;
+    background-color: blueviolet;
+    padding: 3px;
+    border-radius: 33%;
+}
+
